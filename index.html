@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NFC — fresh, flavourful food made for sharing.">
+  <title>NFC | Fresh. Bold. Delicious.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">BIG FLAVOUR. BIGGER CRAVINGS. <span>ORDER YOUR FAVOURITES TODAY</span></div>
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="NFC home">NFC<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="#menu">OUR MENU</a><a href="#story">OUR STORY</a><a href="#deals">DEALS</a>
+    </nav>
+    <a class="order-button" href="#menu">ORDER NOW <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO NFC</p>
+        <h1>CRAVE IT.<br><em>LOVE IT.</em><br>REPEAT.</h1>
+        <p class="hero-description">Big, bold flavour made fresh. Your next favourite meal is just a click away.</p>
+        <div class="hero-actions"><a class="button button-light" href="#menu">EXPLORE MENU <span>→</span></a><a class="text-link" href="#story">DISCOVER NFC</a></div>
+      </div>
+      <div class="hero-art" aria-label="Featured crispy chicken meal">
+        <div class="burst"></div>
+        <div class="hero-tag">HOT<br>&amp; FRESH</div>
+        <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=1100&q=85" alt="Crispy fried chicken pieces">
+        <div class="floating-note">MADE TO<br>MAKE YOU<br><strong>HAPPY!</strong></div>
+      </div>
+      <div class="hero-bottom"><span>FRESHLY PREPARED</span><span>●</span><span>FULL OF FLAVOUR</span><span>●</span><span>MADE FOR YOU</span></div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-heading"><div><p class="eyebrow red">GOOD FOOD. GOOD MOOD.</p><h2>THE NFC <em>FAVOURITES</em></h2></div><p>Something for every craving.<br>Find your new go-to.</p></div>
+      <div class="menu-grid">
+        <article class="food-card"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85" alt="Juicy burger"><div><span>01 / BURGERS</span><h3>THE BIG BITE</h3><p>Stacked high. Packed with flavour.</p></div></article>
+        <article class="food-card"><img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=85" alt="Crispy chicken"><div><span>02 / CHICKEN</span><h3>CRUNCH TIME</h3><p>Golden, crispy and seriously tasty.</p></div></article>
+        <article class="food-card"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=85" alt="Fresh pizza"><div><span>03 / SIDES</span><h3>SHARE THE LOVE</h3><p>The perfect sidekick to every meal.</p></div></article>
+      </div>
+    </section>
+
+    <section class="promo" id="deals">
+      <div class="promo-image"><img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=1000&q=85" alt="Chicken sandwich meal"></div>
+      <div class="promo-copy"><p class="eyebrow">THE GOOD STUFF</p><h2>MAKE TODAY<br><em>DELICIOUS.</em></h2><p>Bring your appetite. We've got the flavour, the crunch and the feel-good food to make your day.</p><a class="button button-red" href="#menu">FIND YOUR FAVOURITE <span>→</span></a></div>
+    </section>
+
+    <section class="story section-pad" id="story"><p class="eyebrow red">A LITTLE ABOUT US</p><h2>MADE WITH PASSION.<br><em>SERVED WITH A SMILE.</em></h2><p class="story-text">At NFC, we believe great food brings people together. We're here for the big cravings, the shared moments and the little treats that make an ordinary day feel special.</p></section>
+  </main>
+
+  <footer><a class="logo footer-logo" href="#">NFC<span>.</span></a><p>FRESH. BOLD. DELICIOUS.</p><div><a href="#menu">MENU</a><a href="#story">ABOUT</a><a href="#deals">DEALS</a></div><small>© <span id="year"></span> NFC. Demo website concept. All rights reserved.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
